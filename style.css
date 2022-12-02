@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:floralwhite;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+
+
+.image{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(2, 0, 6);
+    border-radius: 50%;
+    float: left;
+   
+}
+
+.header-of-bio{
+    float: left;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(14, 15, 14);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h2{
+    color: rgb(35, 191, 87);
+    font-family:cursive;
+}
+
+h3{
+    color: rgb(0, 6, 2);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+h4,h6,p,a{
+    color:black;
+    font-size: large;
+    
+}
+
+
+.contact-of-header{
+    padding: 30px;
+    float: right;
+}
+
+.contact-of-header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-of-header a:hover{
+     text-decoration:underline;
+    color:blue;
+    font-weight: bolder;
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 5px ;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+
+.left-div{
+    
+    
+    width: 40%;
+    float: left;
+    font-weight: bold;
+}
+.right-div{
+    width: 60%;
+    float: right;
+    font-weight: bold;
+}
+.common-hr{
+    border:solid black 2px;
+    border-bottom: none;
+    width:100%;
+    margin: 15px auto;
+}
+
+.bottom-design{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-design a{
+    color: white;
+    font-weight: bolder;
+    font-size:large;
+    text-decoration: none;
+}
+.bottom-design a:hover{
+    color:blue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
